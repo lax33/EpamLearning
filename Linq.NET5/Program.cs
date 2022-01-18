@@ -45,9 +45,9 @@ namespace Linq.NET5
             var peopleInSeattle = (from student in students
                                    where student.City == "Seattle"
                                    select student.Last)
-                        .Concat(from teacher in teachers
-                                where teacher.City == "Seattle"
-                                select teacher.Last);
+                                   .Concat(from teacher in teachers
+                                           where teacher.City == "Seattle"
+                                           select teacher.Last);
 
             Console.WriteLine("The following students and teachers live in Seattle:");
             // Execute the query.
