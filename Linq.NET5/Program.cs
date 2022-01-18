@@ -8,8 +8,6 @@ namespace Linq.NET5
     {
         static void Main(string[] args)
         {
-
-
             // Create the first data source.
             List<Student> students = new List<Student>()
                 {
@@ -42,12 +40,19 @@ namespace Linq.NET5
                 };
 
             // Create the query.
+            //var peopleInSeattle = (from student in students
+            //                       where student.City == "Seattle"
+            //                       select student.Last)
+            //                       .Concat(from teacher in teachers
+            //                               where teacher.City == "Seattle"
+            //                               select teacher.Last);
+
             var peopleInSeattle = (from student in students
                                    where student.City == "Seattle"
-                                   select student.Last)
+                                   select new { Name = student.First, LastName = student.Last })
                                    .Concat(from teacher in teachers
                                            where teacher.City == "Seattle"
-                                           select teacher.Last);
+                                           select new { Name = teacher.First, LastName = teacher.Last });
 
             Console.WriteLine("The following students and teachers live in Seattle:");
             // Execute the query.
