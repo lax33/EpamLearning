@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Linq.NET5
+namespace Linq.NET5CombiningSequencesIntoOne
 {
     internal class Student
     {
