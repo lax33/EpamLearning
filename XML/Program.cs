@@ -10,7 +10,7 @@ namespace XML
             XmlDocument xDoc = new();                   // создали объект примемающий документ xml
             xDoc.Load("user.xml");              // загрузили документ
 
-            XmlNode xroot = xDoc.DocumentElement;    // в объект, который может хранить корневой элемент, загружаем коренвой элемент 
+            XmlNode xroot = xDoc.DocumentElement;    // в объект, который может хранить корневой элемент, загружаем корневой элемент 
 
             if (xroot != null)
             {
