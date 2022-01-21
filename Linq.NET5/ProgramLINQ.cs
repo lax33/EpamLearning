@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Linq.NET5CombiningSequencesIntoOne
 {
-    internal class Program
+    internal class ProgramLINQ
     {
         static void Main(string[] args)
         {

@@ -3,7 +3,7 @@ using System.Xml;
 
 namespace XML
 {
-    internal class Program
+    internal class ProgramXML
     {
         static void Main(string[] args)
         {

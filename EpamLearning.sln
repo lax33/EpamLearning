@@ -7,8 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq.NET5CombiningSequences
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Info", "Info", "{EC54B5BC-74D0-4C6E-BC3B-A75D843FD08A}"
 	ProjectSection(SolutionItems) = preProject
+		JSON.docx = JSON.docx
 		LINQ extansions(comands).docx = LINQ extansions(comands).docx
 		Linq.NET5CombiningSequencesIntoOne.docx = Linq.NET5CombiningSequencesIntoOne.docx
+		XML.docx = XML.docx
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XML", "XML\XML.csproj", "{BBFB8662-EC83-4894-81C3-987F469C2664}"
